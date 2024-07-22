@@ -1,0 +1,35 @@
+{
+	"name": "Vimium C",
+	"@time": "3.2.2024, 07:00:07",
+	"time": 1706940007071,
+	"environment": {
+		"extension": "1.99.997",
+		"platform": "linux",
+		"firefox": 122
+	},
+	"exclusionRules": [],
+	"keyLayout": 0,
+	"searchEngines": [
+		"g|go|gg|google|Google: https://www.google.com/search?q=%s \\",
+		"  www.google.com re=/^(?:\\.[a-z]{2,4})?\\/search\\b.*?[#&?]q=([^#&]*)/i\\",
+		"  blank=https://www.google.com/ Google",
+		"br|brave: https://search.brave.com/search?q=%s Brave",
+		"d|dd|ddg|duckduckgo: https://duckduckgo.com/?q=%s DuckDuckGo",
+		"ec|ecosia: https://www.ecosia.org/search?q=%s Ecosia",
+		"qw|qwant: https://www.qwant.com/?q=%s Qwant",
+		"ya|yd|yandex: https://yandex.com/search/?text=%s Yandex",
+		"yh|yahoo: https://search.yahoo.com/search?p=%s Yahoo",
+		"maru|mailru|mail.ru: https://go.mail.ru/search?q=%s Mail.ru",
+		"",
+		"g.m|gm|g.map|gmap: https://www.google.com/maps?q=%s \\",
+		"  blank=https://www.google.com/maps Google Maps",
+		"b.m|bm|map|b.map|bmap|百度地图: \\",
+		"  https://api.map.baidu.com/geocoder?output=html&address=%s&src=vimium-c",
+		"y|yt: https://www.youtube.com/results?search_query=%s \\",
+		"  blank=https://www.youtube.com/ YouTube",
+		"w|wiki: https://www.wikipedia.org/w/index.php?search=%s Wikipedia",
+		""
+	],
+	"searchUrl": "https://search.brave.com/search?q=$s Brave",
+	"vimSync": true
+}

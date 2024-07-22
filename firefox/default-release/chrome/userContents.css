@@ -1,0 +1,42 @@
+style {
+    display: none !important;
+}
+
+*[style] {
+    background: none !important;
+    color: inherit !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+}
+
+body, html, * {
+    background-image: none !important;
+    background-color: #222222 !important;
+    color: white !important;
+}
+
+img {
+    visibility: hidden !important;
+}
+
+a {
+    color: #46acff !important;
+}
+
+a[href^="#"]:before {
+    content: attr(href);
+    margin-right: 5px;
+    color: red;
+}
+
+}
+
+/*-----------------------------------------------------*/
+
+body[data-domain="www.youtube.com"] img {
+    visibility: visible !important;
+}
+
