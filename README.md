@@ -6,7 +6,7 @@ Everyone, experts included, should at least read the wiki, as it contains import
 
 🟩 Installaion
 
-bash <(curl -s https://raw.githubusercontent.com/deinbenutzername/unifox.js/main/install.sh
+`bash <(curl -s https://raw.githubusercontent.com/marlonivo/unifox.js/main/install.sh)`
 
 🟪 License: MIT
 
