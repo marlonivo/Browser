@@ -3,7 +3,7 @@ Unifox.js is autobootstrap-script that configures a unified-and distraction-free
 
 ### 🟨 The Autobootstrap Script will do the following with your boring firefox:
 
-1. Install the addon's:
+1. Inside your .mozilla directory, it will install the addon's:
 - [ublock-origin](https://ublockorigin.com/) [preconfigured]
 - [decentraleyes](https://decentraleyes.org/) 
 - [istilldontcareaboutcookies](https://www.stilldontcareaboutcookies.com/)
@@ -11,7 +11,7 @@ Unifox.js is autobootstrap-script that configures a unified-and distraction-free
   
 2. Then configures the labelled Add-On's, with the included `addons.json` file.
 
-3. Create a folder called `chrome` with a wide variety of simplicty making .css configuration files which include:
+3. Create a folder in the called `chrome` with a wide variety of simplicty making .css configuration files which include:
 - userChrome.css
 - userContent.css
 - userChrome.js
