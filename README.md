@@ -19,7 +19,7 @@
 
 🟩 Installaion:
 ```
-curl -s https://raw.githubusercontent.com/marlonivo/unifox.js)
+curl -s https://raw.githubusercontent.com/marlonivo/unifox.js
 cd unifox.js
 install.sh
 ```
