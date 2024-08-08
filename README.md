@@ -31,7 +31,7 @@ Um die Keybindings untereinander statt nebeneinander aufzulisten, kannst du die 
 ### 🟦 Unified Keybindings for page-navigation and browser-tab-operations:
 
 **page navigation:**<br>
-`?` - show help<br>
+`?` - show help (overview of all keybindings)<br>
 `f` - show quick keybinding's<br>
 `j` - scroll down<br>
 `k` - scroll up<br>
