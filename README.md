@@ -26,44 +26,45 @@ git clone https://raw.githubusercontent.com/marlonivo/unifox.js
 cd unifox.js
 install.sh
 ```
+Um die Keybindings untereinander statt nebeneinander aufzulisten, kannst du die `<br>`-Tags in Markdown verwenden. Hier ist das überarbeitete Beispiel:
+
 ### 🟦 Unified Keybindings for page-navigation and browser-tab-operations:
 
-page navigation:
-`?` - show help
-`f` - show quick keybinding's
-`j` - scroll down 
-`k` - scroll up
-`/` - enter find mode
-    `n` - cycle trough 'find mode' words
-`r` - reload tab
-`x` - close tab
-`o` - open searchbar
+**page navigation:**<br>
+`?` - show help<br>
+`f` - show quick keybinding's<br>
+`j` - scroll down<br>
+`k` - scroll up<br>
+`/` - enter find mode<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`n` - cycle through 'find mode' words<br>
+`r` - reload tab<br>
+`x` - close tab<br>
+`o` - open searchbar<br>
 `strg alt d` - activate dark mode on current page
 
+**browser tab operations:**<br>
+`strg tab` - cycle through open Tabs<br>
+`strg t` - new tab<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`strg y` - youtube<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`strg h` - vimiumc menu<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`strg e` - deepl<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`strg g` - github<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`strg k` - chatgpt<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`strg alt a` - about:addons<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`strg alt c` - stylus add on<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`strg alt u` - ublock origin add on<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`strg alt p` - ublock element picker<br>
+`alt left` - go one step back in history<br>
+`alt right` - go one step forth in history<br>
+`strg shift s` - make a screenshot<br>
+`strg shift h` - look for search history, downloads, tags and bookmarks<br>
+`strg shift k` - developer console
 
-browser tab operations:
-`strg tab` - cycle trough open Tabs
-`strg t` - new tab 
-    `strg y` - youtube 
-    `strg h` - vimiumc menu 
-    `strg e` - deepl 
-    `strg g` - github 
-    `strg k` - chatgpt 
-    `strg alt a` - about:addons 
-    `strg alt c` - stylus add on 
-    `strg alt u` - ublock origin add on 
-    `strg alt p` - ublock element picker 
-`alt left` - go one step back in history 
-`alt right` - go one step forth in history
-`strg shift s` - make a screenshot
-`strg shift h` - look for search history, downloads, tags and bookmarks
-`strg shift k` - developer console 
-
-youtube:
-`t` - cinema mode 
-`s` - fullscreen
-`c` - subtitiels
-`strg alt i` - zoom in-to video
+**youtube:**<br>
+`t` - cinema mode<br>
+`s` - fullscreen<br>
+`c` - subtitles<br>
+`strg alt i` - zoom in-to video<br>
 `strg alt o` - zoom out-of video
 
 ### 🟦 License: MIT
