@@ -9,7 +9,7 @@ Unifox.js is autobootstrap-script that configures a unified-and distraction-free
 - [istilldontcareaboutcookies](https://www.stilldontcareaboutcookies.com/)
 - [vimimium-c](https://github.com/gdh1995/vimium-c) [preconfigured]
   
-2. Then configures them, with the included `addons.json` file.
+2. Then configures the labelled Add-On's, with the included `addons.json` file.
 
 3. Create a folder called `chrome` with a wide variety of simplicty making .css configuration files which include:
 - userChrome.css
