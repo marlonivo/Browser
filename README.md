@@ -42,6 +42,7 @@ Um die Keybindings untereinander statt nebeneinander aufzulisten, kannst du die 
 **will come in future:**<br>
 `t` - translate webpage<br>
 `d` - de-/activate dark mode<br>
+`s` - screenshot
 
 **browser tab operations:**<br>
 `strg tab` - cycle through open Tabs<br>
@@ -58,7 +59,7 @@ Um die Keybindings untereinander statt nebeneinander aufzulisten, kannst du die 
 `alt left` - go one step back in history<br>
 `alt right` - go one step forth in history<br>
 `strg shift s` - make a screenshot<br>
-`strg shift h` - look for search history, downloads, tags and bookmarks<br>
+`strg shift h` - search history, downloads, tags and bookmarks<br>
 `strg shift k` - developer console
 
 **youtube:**<br>
