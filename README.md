@@ -4,10 +4,10 @@ Unifox.js is autobootstrap-script that configures a unified-and distraction-free
 ### 🟨 The Autobootstrap Script will do the following with your boring firefox:
 
 1. Install the addon's:
-- [ublock-origin](https://ublockorigin.com/)
-- [decentraleyes](https://decentraleyes.org/)
+- [ublock-origin](https://ublockorigin.com/) [preconfigured]
+- [decentraleyes](https://decentraleyes.org/) 
 - [istilldontcareaboutcookies](https://www.stilldontcareaboutcookies.com/)
-- [vimimium-c](https://github.com/gdh1995/vimium-c)
+- [vimimium-c](https://github.com/gdh1995/vimium-c) [preconfigured]
   
 2. Then configures them, with the included `addons.json` file.
 
