@@ -45,11 +45,11 @@ Um die Keybindings untereinander statt nebeneinander aufzulisten, kannst du die 
 **browser tab operations:**<br>
 `strg tab` - cycle through open Tabs<br>
 `strg t` - new tab<br>
-&nbsp;&nbsp;&nbsp;&nbsp;`strg y` - youtube<br>
-&nbsp;&nbsp;&nbsp;&nbsp;`strg h` - vimiumc menu<br>
-&nbsp;&nbsp;&nbsp;&nbsp;`strg e` - deepl<br>
-&nbsp;&nbsp;&nbsp;&nbsp;`strg g` - github<br>
-&nbsp;&nbsp;&nbsp;&nbsp;`strg k` - chatgpt<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`strg y` - https://youtube.com<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`strg h` - vimium://options<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`strg e` - https://deepl.com<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`strg g` - https://github.com<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`strg k` - https://chatgpt.com<br>
 &nbsp;&nbsp;&nbsp;&nbsp;`strg alt a` - about:addons<br>
 &nbsp;&nbsp;&nbsp;&nbsp;`strg alt c` - stylus add on<br>
 &nbsp;&nbsp;&nbsp;&nbsp;`strg alt u` - ublock origin add on<br>
