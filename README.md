@@ -1,10 +1,10 @@
 🟪 unifox.js
 
 1. A autobootstrap script that which installs the addons:
-- ublock-origin
-- decentraleyes
-- istilldontcareaboutcookies
-- vimimium-c
+- [ublock-origin](https://ublockorigin.com/)
+- [decentraleyes](https://decentraleyes.org/)
+- [istilldontcareaboutcookies](https://www.stilldontcareaboutcookies.com/)
+- [vimimium-c](https://github.com/gdh1995/vimium-c)
   
 2. Then configures them with the included `addons.json` file
 
