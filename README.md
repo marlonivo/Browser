@@ -1,7 +1,7 @@
-🟪 What is unifox.js ?
+### 🟪 What is unifox.js ?
 Unifox.js is autobootstrap-script that configures a unified-and distraction-free Browser-UI/Webpagedesign, as well as security and anti-tracking features from with the help of [arkenfox](https://github.com/arkenfox/user.js/) and addon's like [decentraleyes](https://decentraleyes.org/).
 
-🟨 The Autobootstrap Script will do the following with your boring firefox:
+### 🟨 The Autobootstrap Script will do the following with your boring firefox:
 
 1. Install the addon's:
 - [ublock-origin](https://ublockorigin.com/)
@@ -20,13 +20,13 @@ Unifox.js is autobootstrap-script that configures a unified-and distraction-free
 
 5. At last copies my `prefs.js` to activate `toolkit.legacyUserProfileCustomizations.stylesheets` which is necessary for the Files within the folder `chrome` to take effect and also because some extensions store their settings in there.
    
-🟩 Installaion:
+### 🟩 Installaion:
 ```
 git clone https://raw.githubusercontent.com/marlonivo/unifox.js
 cd unifox.js
 install.sh
 ```
-🟦 Unified Keybindings for page navigation and browser tab operations:
+### 🟦 Unified Keybindings for page-navigation and browser-tab-operations:
 
 page navigation:
 `?` - show help
@@ -63,12 +63,10 @@ youtube:
 `t` - cinema mode 
 `s` - fullscreen
 `c` - subtitiels
-`strg alt i` - zoom in in video
-`strg alt o` - zoom out in video
+`strg alt i` - zoom in-to video
+`strg alt o` - zoom out-of video
 
-
-
-🟦 License: MIT
+### 🟦 License: MIT
 
 
 
