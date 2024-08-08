@@ -19,7 +19,8 @@
 
 🟩 Installaion:
 ```
-curl -s https://raw.githubusercontent.com/marlonivo/unifox.js/main/install.sh)
+curl -s https://raw.githubusercontent.com/marlonivo/unifox.js)
+cd unifox.js
 install.sh
 ```
 🟦 License: MIT
