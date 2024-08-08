@@ -8,7 +8,7 @@ Everyone, experts included, should at least read the wiki, as it contains import
 
 `bash <(curl -s https://raw.githubusercontent.com/marlonivo/unifox.js/main/install.sh)`
 
-🟪 License: MIT
+🟥 License: MIT
 
 
 
