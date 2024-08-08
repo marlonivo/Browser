@@ -39,7 +39,7 @@ Um die Keybindings untereinander statt nebeneinander aufzulisten, kannst du die 
 &nbsp;&nbsp;&nbsp;&nbsp;`n` - cycle through 'find mode'<br>
 `r` - reload tab<br>
 `x` - close tab<br>
-`strg alt d` - activate dark mode on current page
+`d` - de-/activate dark mode
 
 **browser tab operations:**<br>
 `strg tab` - cycle through open Tabs<br>
