@@ -26,7 +26,6 @@ git clone https://raw.githubusercontent.com/marlonivo/unifox.js
 cd unifox.js
 install.sh
 ```
-Um die Keybindings untereinander statt nebeneinander aufzulisten, kannst du die `<br>`-Tags in Markdown verwenden. Hier ist das überarbeitete Beispiel:
 
 ### 🟦 Unified Keybindings for page-navigation and browser-tab-operations:
 
