@@ -36,7 +36,7 @@ Um die Keybindings untereinander statt nebeneinander aufzulisten, kannst du die 
 `j` - scroll down<br>
 `k` - scroll up<br>
 `/` - enter find mode<br>
-&nbsp;&nbsp;&nbsp;&nbsp;`n` - cycle through 'find mode' words<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`n` - cycle through 'find mode'<br>
 `r` - reload tab<br>
 `x` - close tab<br>
 `o` - open searchbar<br>
