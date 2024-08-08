@@ -26,6 +26,48 @@ git clone https://raw.githubusercontent.com/marlonivo/unifox.js
 cd unifox.js
 install.sh
 ```
+🟦 Unified Keybindings for page navigation and browser tab operations:
+
+page navigation:
+`?` - show help
+`f` - show quick keybinding's
+`j` - scroll down 
+`k` - scroll up
+`/` - enter find mode
+    `n` - cycle trough 'find mode' words
+`r` - reload tab
+`x` - close tab
+`o` - open searchbar
+`strg alt d` - activate dark mode on current page
+
+
+browser tab operations:
+`strg tab` - cycle trough open Tabs
+`strg t` - new tab 
+    `strg y` - youtube 
+    `strg h` - vimiumc menu 
+    `strg e` - deepl 
+    `strg g` - github 
+    `strg k` - chatgpt 
+    `strg alt a` - about:addons 
+    `strg alt c` - stylus add on 
+    `strg alt u` - ublock origin add on 
+    `strg alt p` - ublock element picker 
+`alt left` - go one step back in history 
+`alt right` - go one step forth in history
+`strg shift s` - make a screenshot
+`strg shift h` - look for search history, downloads, tags and bookmarks
+`strg shift k` - developer console 
+
+youtube:
+`t` - cinema mode 
+`s` - fullscreen
+`c` - subtitiels
+`strg alt i` - zoom in in video
+`strg alt o` - zoom out in video
+
+
+
 🟦 License: MIT
 
 
