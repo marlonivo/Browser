@@ -50,8 +50,8 @@ Um die Keybindings untereinander statt nebeneinander aufzulisten, kannst du die 
 &nbsp;&nbsp;&nbsp;&nbsp;`strg g` - https://github.com<br>
 &nbsp;&nbsp;&nbsp;&nbsp;`strg k` - https://chatgpt.com<br>
 &nbsp;&nbsp;&nbsp;&nbsp;`strg alt a` - about:addons<br>
-&nbsp;&nbsp;&nbsp;&nbsp;`strg alt c` - stylus add on<br>
-&nbsp;&nbsp;&nbsp;&nbsp;`strg alt u` - ublock origin add on<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`strg alt c` - stylus toolbar<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`strg alt u` - ublock origin toolbar<br>
 &nbsp;&nbsp;&nbsp;&nbsp;`strg alt p` - ublock element picker<br>
 `alt left` - go one step back in history<br>
 `alt right` - go one step forth in history<br>
