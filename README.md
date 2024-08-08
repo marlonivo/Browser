@@ -16,7 +16,7 @@ Unifox.js is autobootstrap-script that configures a unified-and distraction-free
 - userContent.css
 - userChrome.js
 
-4. Set a custom background which can be changed within the `/home/artix/Code/Github/unifox/chrome/img/` directory.
+4. Set a custom background which can be changed within the `.mozilla/firefox/xxxxx.default-release/chrome/img/` directory.
 
 5. At last copies my `prefs.js` to activate `toolkit.legacyUserProfileCustomizations.stylesheets` which is necessary for the Files within the folder `chrome` to take effect and also because some extensions store their settings in there.
    
