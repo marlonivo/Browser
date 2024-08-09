@@ -13,7 +13,7 @@ Unifox.js is autobootstrap-script that configures a keyboard based, unified and 
   
 2. Then configures the labelled Add-On's, with the included `addons.json` file.
 
-3. Create a folder in the called `chrome` with a wide variety of simplicty making .css configuration files which include:
+3. Create a folder called `chrome` with a wide variety of simplicty making .css configuration files which include:
 - userChrome.css
 - userContent.css
 - userChrome.js
