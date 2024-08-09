@@ -1,0 +1,354 @@
+[
+  {
+    "settings": {
+      "openEditInWindow": false,
+      "openEditInWindow.popup": false,
+      "windowPosition": {},
+      "show-badge": true,
+      "disableAll": false,
+      "exposeIframes": false,
+      "exposeStyleName": false,
+      "newStyleAsUsercss": true,
+      "styleViaASS": false,
+      "styleViaXhr": false,
+      "patchCsp": false,
+      "urlInstaller": true,
+      "config.autosave": true,
+      "schemeSwitcher.enabled": "dark",
+      "schemeSwitcher.nightStart": "18:00",
+      "schemeSwitcher.nightEnd": "06:00",
+      "popup.enabledFirst": true,
+      "popup.stylesFirst": true,
+      "popup.autoResort": false,
+      "popup.borders": false,
+      "popup.findSort": "w",
+      "manage.onlyEnabled": false,
+      "manage.onlyLocal": false,
+      "manage.onlyUsercss": false,
+      "manage.onlyEnabled.invert": false,
+      "manage.onlyLocal.invert": false,
+      "manage.onlyUsercss.invert": false,
+      "manage.actions.expanded": true,
+      "manage.backup.expanded": true,
+      "manage.filters.expanded": false,
+      "manage.minColumnWidth": 750,
+      "manage.newUI": true,
+      "manage.newUI.favicons": true,
+      "manage.newUI.faviconsGray": false,
+      "manage.newUI.targets": 3,
+      "manage.newUI.sort": "title,asc",
+      "manage.searchMode": "meta",
+      "editor.options": {},
+      "editor.toc.expanded": true,
+      "editor.options.expanded": false,
+      "editor.lint.expanded": true,
+      "editor.publish.expanded": false,
+      "editor.lineWrapping": true,
+      "editor.smartIndent": true,
+      "editor.indentWithTabs": true,
+      "editor.tabSize": 4,
+      "editor.keyMap": "default",
+      "editor.theme": "default",
+      "editor.beautify": {
+        "selector_separator_newline": true,
+        "newline_before_open_brace": false,
+        "newline_after_open_brace": true,
+        "newline_between_properties": true,
+        "newline_before_close_brace": true,
+        "newline_between_rules": false,
+        "preserve_newlines": true,
+        "end_with_newline": false,
+        "indent_conditional": true,
+        "indent_mozdoc": true,
+        "space_around_combinator": true,
+        "space_around_cmp": true,
+        "indent_size": 1,
+        "indent_char": "\t"
+      },
+      "editor.beautify.hotkey": "",
+      "editor.lintDelay": 300,
+      "editor.linter": "csslint",
+      "editor.lintReportDelay": 500,
+      "editor.matchHighlight": "token",
+      "editor.autoCloseBrackets": true,
+      "editor.autocompleteOnTyping": true,
+      "editor.contextDelete": false,
+      "editor.selectByTokens": true,
+      "editor.arrowKeysTraverse": true,
+      "editor.appliesToLineWidget": true,
+      "editor.autosaveDraft": 10,
+      "editor.livePreview": true,
+      "editor.targetsFirst": true,
+      "editor.colorpicker": true,
+      "editor.colorpicker.hexUppercase": false,
+      "editor.colorpicker.hotkey": "",
+      "editor.colorpicker.color": "",
+      "editor.colorpicker.maxHeight": 300,
+      "hotkey._execute_browser_action": "",
+      "hotkey.openManage": "",
+      "hotkey.styleDisableAll": "",
+      "sync.enabled": "none",
+      "iconset": 0,
+      "badgeDisabled": "#8B0000",
+      "badgeNormal": "#006666",
+      "headerWidth.edit": 444,
+      "headerWidth.install": 444,
+      "headerWidth.manage": 444,
+      "popup.search.globals": false,
+      "popupWidth": 246,
+      "popupWidthMax": 280,
+      "updateInterval": 24,
+      "updateOnlyEnabled": false
+    },
+    "order": {
+      "main": [],
+      "prio": []
+    },
+    "usercssTemplate": "Youtube/* ==UserStyle==\n@name           ? - May 2024\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    Simple Youtube\n@author         Me\n==/UserStyle== */\n@-moz-document url(\"youtube.com\") {\n\t###title-wrapper {\n\t\tcolor: #46acff !important;\n\t}\n}"
+  },
+  {
+    "enabled": true,
+    "installDate": 1715069924188,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name         Unifie ChatGPT\n@namespace    github.com/marlonivo/unfieweb/unifieChatGPT\n@author       email@marlonivo.xyz\n@description  Unifie ChatGPT\n@version      0.0.0.1\n==/UserStyle== */\n@-moz-document domain(\"chatgpt.com\") {\n    .md\\:gap-6 {\n        gap: 1.5rem !important;\n    }\n\n    .gizmo\\:md\\:px-5 {\n        padding-left: 1.25rem !important;\n        padding-right: 1.25rem !important;\n    }\n\n    .gizmo\\:md\\:max-w-3xl,\n    .md\\:max-w-2xl {\n        max-width: 136rem !important;\n        /* Adjust as needed */\n    }\n\n    @media (min-width: 1024px) {\n        /* lg breakpoint */\n        .lg\\:max-w-138rem,\n        .gizmo\\:lg\\:max-w-140rem {\n            max-width: 138rem !important;\n            /* Adjust as needed */\n        }\n\n        .gizmo\\:lg\\:px-1 {\n            padding-left: 0.25rem;\n            padding-right: 0.25rem;\n        }\n    }\n\n    @media (min-width: 1280px) {\n        /* xl breakpoint */\n        .gizmo\\:xl\\:max-w-148rem,\n        .xl\\:max-w-3xl {\n            max-width: 148rem !important;\n            /* Adjust as needed */\n        }\n\n        .gizmo\\:xl\\:px-5 {\n            padding-left: 1.25rem;\n            padding-right: 1.25rem;\n        }\n    }\n\n    /* Media query for medium devices (md) */\n    @media (min-width: 768px) {\n        .md\\:px-5 {\n            padding-left: 1.25rem;\n            padding-right: 1.25rem;\n            /* Sets horizontal padding to 20px on medium devices */\n        }\n\n        .md\\:max-w-3xl {\n            max-width: 148rem !important;\n            /* Sets max-width to 768px on medium devices */\n        }\n    }\n\t\n\t.flex w-full items-center {\n\t\t margin-left: 10px\n\t}\n\t.md\\:pt-0 { \n     margin-left: 5px;\n\t padding-right: 10px;\n\t padding-bottom: 10px;\n     border-color: transparent;\n     border-color: white;\n\t}\n\n    /* Media query for large devices (lg) */\n    @media (min-width: 1024px) {\n        .lg\\:px-1 {\n            padding-left: 0.25rem;\n            padding-right: 0.25rem;\n            /* Sets horizontal padding to 4px on large devices */\n        }\n\n        .lg\\:max-w-40rem {\n            max-width: 140rem !important;\n            /* Sets max-width to 640px on large devices */\n        }\n    }\n\n    /* Media query for extra large devices (xl) */\n    @media (min-width: 1280px) {\n        .xl\\:px-5 {\n            padding-left: 1.25rem;\n            padding-right: 1.25rem;\n            padding-bottom: 0.25rem;\n            /* Sets horizontal padding to 20px on extra large devices */\n        }\n\n        .xl\\:max-w-48rem {\n            max-width: 148rem !important;\n            /* Sets max-width to 768px on extra large devices */\n        }\n    }\n}\n",
+    "updateUrl": "https://cdn.jsdelivr.net/gh/uso-archive/data@flomaster/data/usercss/271811.user.css",
+    "usercssData": {
+      "name": "Unifie ChatGPT",
+      "namespace": "github.com/marlonivo/unfieweb/unifieChatGPT",
+      "author": "email@marlonivo.xyz",
+      "description": "Unifie ChatGPT",
+      "version": "0.0.0.1"
+    },
+    "author": "email@marlonivo.xyz",
+    "description": "Unifie ChatGPT",
+    "name": "Unifie ChatGPT",
+    "originalDigest": "01f49969bffcb4127555c283030f965a34372697",
+    "_id": "78d37eda-0f39-482a-80fd-b02407f07095",
+    "_rev": 1723100479928,
+    "url": "https://uso.kkx.one/style/271811",
+    "installationUrl": "https://uso.kkx.one/style/271811",
+    "id": 75,
+    "etag": "W/\"84a-AfSZab/8tBJ1VcKDAw+WWjQ3Jpc\"",
+    "updateDate": 1723100479928,
+    "exclusions": [
+      "https://github.com/*"
+    ]
+  },
+  {
+    "enabled": true,
+    "installDate": 1717375127785,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           Unifie Proton\n@namespace      github.com/marlonivo/proton\n@version        1.0.0\n@description    Just tweaks the colours so that everything isn't a shade of blue.\n@author         Max Topham\n==/UserStyle== */\n\n@-moz-document domain(\"proton.me\") {\n  .color-primary {\n    color: #66f;\n  }\n  \n  :root, .ui-standard {\n    --primary: #2c2c2f;\n\t--primary-contrast: #959595;\n\t--signal-danger-minor-2: #310b12;\n\t--signal-danger-minor-1: #4a111b;\n\t--signal-danger: #f5385a;\n\t--signal-danger-major-1: #f64c6b;\n\t--signal-danger-major-2: #f7607b;\n\t--signal-danger-major-3: #f8748c;\n\t--signal-danger-contrast: #c0c0c0;\n\t--signal-warning-minor-2: #331200;\n\t--signal-warning-minor-1: #4d1b00;\n\t--signal-warning: #ff9900;\n\t--signal-warning-major-1: #ffa31a;\n\t--signal-warning-major-2: #ffad33;\n\t--signal-warning-major-3: #ffb84d;\n\t--signal-warning-contrast: #000000;\n\t--signal-success-minor-2: #06221b;\n\t--signal-success-minor-1: #093228;\n\t--signal-success: #1ea885;\n\t--signal-success-major-1: #35b191;\n\t--signal-success-major-2: #4bb99d;\n\t--signal-success-major-3: #62c2aa;\n\t--signal-success-contrast: #ffffff;\n\t--signal-info-minor-2: #072029;\n\t--signal-info-minor-1: #0b2f3e;\n\t--signal-info: #239ece;\n\t--signal-info-major-1: #39a8d3;\n\t--signal-info-major-2: #4fb1d8;\n\t--signal-info-major-3: #65bbdd;\n\t--signal-info-contrast: #ffffff;\n\t--interaction-norm-minor-2: #212121;\n\t--interaction-norm-minor-1: #212121;\n\t--interaction-norm: #898989;\n\t--interaction-norm-major-1: #919191;\n\t--interaction-norm-major-2: #a3a3a3;\n\t--interaction-norm-major-3: #8b8b8b;\n\t--interaction-norm-contrast: #ffffff;\n\t--interaction-weak-minor-2: #181818;\n\t--interaction-weak-minor-1: #252525;\n\t--interaction-weak: #272727;\n\t--interaction-weak-major-1: #414141;\n\t--interaction-weak-major-2: #5e5e5e;\n\t--interaction-weak-major-3: #808080;\n\t--interaction-weak-contrast: #cdcdcd;\n\t--text-norm: #c6c6c6;\n\t--text-weak: #9a9a9a;\n\t--text-hint: #6b6b6b;\n\t--text-disabled: #5d5d5d;\n\t--text-invert: #1a1a1a;\n\t--field-norm: #5b576b;\n\t--field-hover: #6d697d;\n\t--field-disabled: #3f3b4c;\n\t--field-focus: #7c7c7c;\n\t--field-highlight: rgba(61, 61, 61, 0.3);\n\t--border-norm: #5e5e5e;\n\t--border-weak: #3a3a3a;\n\t--background-norm: #181818;\n\t--background-weak: #272727;\n\t--background-strong: #454545;\n\t--interaction-default: transparent;\n\t--interaction-default-hover: rgba(112, 112, 112, 0.2);\n\t--interaction-default-active: rgba(95, 95, 95, 0.4);\n\t--shadow-norm-opacity: 0.5;\n\t--shadow-lifted-opacity: 0.75;\n\t--backdrop-norm: rgba(0, 0, 0, 0.48);\n\t--optional-scrollbar-thumb-color: #808080;\n\t--optional-scrollbar-thumb-hover-color: #c2c2c2;\n\t--optional-link-norm: var(--interaction-norm-major-1);\n\t--optional-link-hover: var(--interaction-norm-major-2);\n\t--optional-link-active: var(--interaction-norm-major-3);\n\t--optional-email-item-unread-background-color: #2d2d2d;\n\t--optional-email-item-read-background-color: var(--background-norm);\n\t--optional-email-item-read-text-color: var(--text-weak);\n\t--optional-mini-calendar-today-color: white;\n\t--optional-logo-icon-text-color: #c5b7ff;\n  }\n}",
+    "usercssData": {
+      "name": "Unifie Proton",
+      "namespace": "github.com/marlonivo/proton",
+      "version": "1.0.0",
+      "description": "Just tweaks the colours so that everything isn't a shade of blue.",
+      "author": "Max Topham"
+    },
+    "author": "Max Topham",
+    "description": "Just tweaks the colours so that everything isn't a shade of blue.",
+    "name": "Unifie Proton",
+    "updateUrl": "https://userstyles.world/api/style/8425.user.css",
+    "originalDigest": "1bdb1e24d3d2480ddf31fe9e45d58b6341b4141b",
+    "_id": "71b939e5-338b-4d78-bb20-3130b889b102",
+    "_rev": 1719711631918,
+    "url": "https://userstyles.world/style/8425",
+    "installationUrl": "https://userstyles.world/style/8425",
+    "id": 78,
+    "updateDate": 1719711631917
+  },
+  {
+    "enabled": true,
+    "installDate": 1717396082867,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name         Unifie Youtube\n@namespace    USO Archive\n@description  Unifie Youtube\n@version      0.0.1\n==/UserStyle== */\n@-moz-document domain(\"youtube.com\") {\n\t\n.ytd-video-renderer.style-scope {\n   color: #46acff !important;\n   font-size: 15px !important;\n    }\n.style-scope.ytd-video-renderer {\n   padding: 0px !important; \n    }   \n.metadata-snippet-text.style-scope.ytd-video-renderer {\n   font-size: 12px !important; \n    }\n.style-scope.ytd-playlist-renderer {\n    color: #46acff !important;\n    font-size: 15px !important;\n    }\n#contents.ytd-shelf-renderer {\n  margin-top: 0px;\n}\n.ytd-vertical-list-renderer {\n  display: block;\n  padding-bottom: 0px;\n}\n.ytd-two-column-search-results-renderer {\n\tmargin-left: 0px;\n}\nytd-exploratory-results-renderer.ytd-item-section-renderer, ytd-horizontal-card-list-renderer.ytd-item-section-renderer:not(:first-child), ytd-reel-shelf-renderer.ytd-item-section-renderer, ytd-shelf-renderer.ytd-item-section-renderer {\n  border-top: 0px;\n  border-bottom: 0px;\n  margin-top: 0px;\n}\n.metadata-snippet-text.style-scope.ytd-video-renderer {\n    color: #717171 !important;\n    }\n.yt-simple-endpoint.style-scope.yt-formatted-string {\n    font-size: 11.5px !important;\n    }\n.ytd-watch-flexy[flexy][is-two-columns_]{\n    max-width: 100000px;\n}\n.ytd-watch-flexy {\n  --ytd-watch-flexy-sidebar-width: 0px;\n  --ytd-watch-flexy-sidebar-min-width: 0px;\n }\n.video-title.ytd-radio-renderer {\n  color: #46acff !important;\n  font-size: 15px;\n  }\n}\n\n\n\n\n",
+    "updateUrl": "https://cdn.jsdelivr.net/gh/uso-archive/data@flomaster/data/usercss/256247.user.css",
+    "usercssData": {
+      "name": "Unifie Youtube",
+      "namespace": "USO Archive",
+      "description": "Unifie Youtube",
+      "version": "0.0.1"
+    },
+    "author": "Jess",
+    "description": "Unifie Youtube",
+    "name": "Unifie Youtube",
+    "originalDigest": "25497d98f6ce130d22a6ddfde9af094a3a0a261c",
+    "_id": "af036f3e-0d48-4a97-b12b-e152203a7a7f",
+    "_rev": 1723071715567,
+    "url": "https://uso.kkx.one/style/256247",
+    "installationUrl": "https://uso.kkx.one/style/256247",
+    "id": 79,
+    "updateDate": 1722727067041
+  },
+  {
+    "enabled": true,
+    "installDate": 1721175932896,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "customName": "Unifie Github",
+    "sourceCode": "/* ==UserStyle==\n@name           ? - Jul 2024\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    Simple Youtube\n@author         Me\n==/UserStyle== */\n@-moz-document domain(\"github.com\") {\n\n.feed-content .feed-main {\n    max-width: 2000px;\n    }\n}",
+    "usercssData": {
+      "name": "? - Jul 2024",
+      "namespace": "github.com/openstyles/stylus",
+      "version": "1.0.0",
+      "description": "Simple Youtube",
+      "author": "Me"
+    },
+    "author": "Me",
+    "description": "Simple Youtube",
+    "name": "? - Jul 2024",
+    "updateDate": 1721175949373,
+    "_id": "b6ebae6a-774b-46ca-a10e-2350e1e31466",
+    "_rev": 1721175949374,
+    "id": 82
+  },
+  {
+    "enabled": true,
+    "installDate": 1721780478194,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           wikipedia clear style\n@namespace      wikipedia.org\n@version        1.0.0\n@description    wikipedia clear style\n@author         kefiijrw\n==/UserStyle== */\n\n@-moz-document domain(\"wikipedia.org\") {\n#p-personal,\n#left-navigation,\n#p-views,\n#siteNotice,\n#p-navigation,\n#p-participation,\n#p-tb,\n#p-coll-print_export,\n#p-wikibase-otherprojects,\n#p-lang-label,\n.uls-settings-trigger,\n.after-portlet-lang,\n#siteSub,\n#mw-fr-reviewnotice,\n.mw-editsection,\n.toctoggle,\ntable.ambox {\n    display: none;\n}\n\n* {\n    border: none !important;\n}\n\n.mw-body-content p,\n.mw-content-ltr ul,\n.mw-content-rtl .mw-content-ltr ul {\n    padding: 0 10% 0 0;\n    max-width: 45em;\n}\n\n.mw-body h1,\n.mw-body-content h1 {\n    font-size: 2.5em;\n}\n\nh1,\n.mw-body-content h2 {\n    font-family: 'PT Serif' !important;\n}\n\n.mw-body-content h3,\n.mw-body-content h4,\n.mw-body-content h5,\n.mw-body-content h6 {\n    margin-top: 1em;\n}\n\n.mw-body-content h2 {\n    margin-top: 2em;\n    font-size: 1.8em;\n}\n\ndiv#simpleSearch {\n    background: none;\n    border: solid 1px #efefef !important;\n}\n\ndiv#simpleSearch input::placeholder {\n    color: #ccc;\n}\n\n#right-navigation {\n    margin-top: 0;\n}\n\ndiv#simpleSearch:hover {\n    border: solid 1px #ccc !important;\n}\n\n#mw-head-base {\n    height: 2em;\n}\n\n.reference {\n    position: relative;\n    background-color: white;\n    margin-left: -1px;\n    opacity: 0.4;\n    font-size: 60% !important;\n}\n\n.reference:hover {\n    opacity: 1;\n}\n\n.reference:before,\n.reference:after {\n    content: \" \";\n    position: absolute;\n    top: 2px;\n    background-color: white;\n    color: white;\n}\n\nul {\n    list-style-type: none;\n    list-style-image: none;\n}\n\nli {\n    margin: 0.5em 0;\n}\n\nblockquote {\n    font-style: italic;\n    font-family: 'PT serif';\n    background: none;\n    font-size: 1.2em;\n    letter-spacing: 0.015em;\n    max-width: 40em;\n    margin-top: 1.3em;\n}\n\ndiv.thumbinner {\n    background: none;\n}\n\n.thumb.tleft {\n    clear: right;\n    float: right;\n    margin: 0.5em 0 1.3em 4.4em;\n}\n\ndiv.tright {\n    margin-left: 4.4em;\n}\n\n.geo-services {\n    display: none;\n}\n\n.mw-kartographer-maplink {\n    width: 0;\n    height: 20px;\n    overflow: hidden;\n    display: inline-block;\n}\n\n.dablink,\n.rellink {\n    padding-left: 0;\n    color: gray;\n    font-size: 80%;\n}\n\n#toc,\n.toc,\n.mw-warning,\n.toccolours {\n    padding: 15px 30px 10px 15px;\n    font-size: 70%;\n    line-height: 1.2em;\n}\n\n#toc #toctitle,\n.toc #toctitle,\n#toc .toctitle,\n.toc .toctitle {\n    text-align: left;\n}\n\n.mw-body-content #toc h2 {\n    font-family: sans-serif !important;\n}\n\ntable.standard {\n    margin-left: 0;\n}\n\ntable,\ntr {\n    background: none !important;\n}\n\n.infobox td,\n.infobox td div {\n    background: none !important;\n}\n\ntd,\nth {\n    text-align: left !important;\n    vertical-align: top;\n    font-weight: inherit;\n}\n\ntd {\n    vertical-align: top;\n}\n\n.infobox {\n    margin-left: 4.4em;\n    background: none;\n}\n\n.infobox td,\n.infobox th {\n    text-align: left !important;\n    background: none !important;\n    padding-bottom: 0.4em;\n    vertical-align: top;\n}\n\n.center,\ncaption {\n    text-align: left !important;\n}\n\n.fn.org {\n    font-weight: bold;\n}\n\n.nickname {\n    font-weight: normal;\n}\n\nb {\n    font-weight: normal;\n}\n\n#contentSub {\n    margin-left: 0;\n}\n\n.collapseButton {\n    background-color: rgb(226, 241, 253);\n    border-radius: 4px;\n    padding: 2px 1px;\n    line-height: 1.2;\n    font-size: 75%;\n    color: rgb(226, 241, 253);\n}\n\n.collapseButton:hover {\n    background-color: #c7e6ff;\n    color: #c7e6ff;\n}\n\n.collapseButton:hover a,\n.collapseButton:link a,\n.collapseButton:active a {\n    text-decoration: none;\n}\n\nimg[src=\"//upload.wikimedia.org/wikipedia/commons/thumb/4/45/Arrow_Blue_Right_001.svg/10px-Arrow_Blue_Right_001.svg.png\"] {\n    display: none;\n}\n\nimg[src=\"//upload.wikimedia.org/wikipedia/commons/thumb/4/45/Arrow_Blue_Right_001.svg/10px-Arrow_Blue_Right_001.svg.png\"]:after {\n    content: ' →';\n}\n\na.NavToggle {\n    float: none;\n}\n\ndiv.NavFrame div.NavHead {\n    font-weight: normal;\n    background: none;\n}\n\n#mw-panel {\n    background-color: #f6f6f6;\n}\n\n#mw-panel::after {\n    content: '';\n    background: linear-gradient(0deg, rgba(246, 246, 246, 0) 0%, rgb(246, 246, 246) 100%);\n    display: block;\n    height: 40px;\n    position: relative;\n    bottom: -40px;\n}\n\n#toc {\n    position: fixed;\n    top: 0;\n    background: none;\n    width: 160px;\n    left: 0;\n    display: block;\n    font-size: 65%;\n    height: 100vh;\n    overflow-y: scroll;\n    padding: 10px;\n    box-sizing: border-box;\n}\n\n.hatnote {\n    font-size: 80%;\n    padding-left: 0;\n    max-width: 40em;\n    line-height: 1.4;\n    padding-bottom: 0.5em;\n}\n\n#toc ul {\n    padding: 0;\n}\n\n#toc .toctitle,\n.tocnumber,\n#mw-indicator-audio {\n    display: none;\n}\n\n.mw-content-ltr .toc ul ul,\n.mw-content-rtl .mw-content-ltr .toc ul ul {\n    margin-left: 0.75em;\n}\n\n@media screen and (min-width: 982px) {\n    #mw-panel {\n        width: 10.5em;\n    }\n\n    #toc {\n        width: 176px;\n    }\n\n    .mw-body-content p,\n    .mw-content-ltr ul,\n    .mw-content-rtl .mw-content-ltr ul {\n        padding: 0 10% 0 0;\n\t\tmax-width: none;\n    }\n@media screen {\n  #mw-page-base {\n    background-color: #fbfbfb;\n    background-image: linear-gradient(to bottom,var(--background-color-base,#fff) 50%,#f6f6f6 100%);\n    background-position: bottom left;\n    height: 3em;\n   }\n  }\n }\n}\n@-moz-document domain(\"en.wikipedia.org\") {\n    @media screen and (min-width: 1000px) {\n        \n        /* Set content width to 110em*/\n        .mw-page-container,\n        .vector-feature-zebra-design-enabled .mw-page-container,\n        .vector-feature-zebra-design-disabled .mw-page-container{\n            max-width: 110em;\n        }\n        \n        .vector-header-container .mw-header,\n        .vector-feature-zebra-design-enabled .vector-header-container .mw-header,\n        .vector-feature-zebra-design-disabled .vector-header-container {\n            max-width: 110em;\n        }\n        \n        /* Rearrange header, logo, search, etc. */\n        .mw-header {\n            flex-direction: column-reverse;\n            align-items: unset;\n            display: flex !important;\n        }\n        .vector-user-links {\n            padding-right: 1em;\n        }\n\n        .vector-header-start {\n            justify-content: space-between;\n            margin-top: -2.6em;\n            flex-direction: row-reverse;\n        }\n\n        .vector-header-end {\n            flex-direction: row-reverse;\n            align-self: end;\n            padding-right: 14.6em;\n            margin-top: 1.5em;\n            min-width: 30em;\n            max-width: 55em;\n            width: 55%;\n            padding-left: 12em;\n        }\n        \n        #p-search {\n            min-width: 26em;\n            max-width: 36em;\n        }\n        \n        .vector-feature-main-menu-pinned-disabled .mw-logo {\n            margin-left: unset;\n        }\n        \n        .vector-feature-main-menu-pinned-enabled .vector-header-start,\n        .vector-feature-zebra-design-enabled.vector-feature-main-menu-pinned-enabled .vector-header-start,\n        .vector-feature-zebra-design-disabled.vector-feature-main-menu-pinned-enabled .vector-header-start{\n            flex-direction: row\n        }\n        /* Rearrange header end */\n        \n        /* Article text container width */\n        .mw-body,\n        .vector-feature-zebra-design-enabled .mw-body,\n        .vector-feature-zebra-design-disabled .mw-body{\n            grid-template-columns: minmax(0px, 110rem) min-content;\n        }\n        \n        /* Swap article text and table of contents */\n        .mw-page-container-inner,\n        .vector-feature-zebra-design-enabled .mw-page-container-inner {\n            grid-template-columns: minmax(0,1fr) 15.5rem;\n            grid-template-areas:'siteNotice  siteNotice ' \n                                'pageContent columnStart' \n                                'footer      footer     ';\n        }\n        \n        .vector-feature-zebra-design-disabled .mw-page-container-inner {\n            grid-template-columns: minmax(0,1fr) 15.5rem;\n            grid-template-areas:'siteNotice  siteNotice' \n                                'pageContent mainMenu  ' \n                                'pageContent toc       ' \n                                'footer      footer    ';\n        }\n        \n        .vector-feature-zebra-design-disabled.vector-feature-main-menu-pinned-disabled.vector-feature-toc-pinned-clientpref-0 .mw-content-container {\n            grid-column: pageContent / mainMenu\n        }\n        \n        /* misc */\n        \n        .vector-feature-zebra-design-disabled .vector-column-start .vector-sticky-pinned-container,\n        .vector-feature-zebra-design-disabled #vector-main-menu-pinned-container .vector-main-menu {\n             margin-left: 0;\n        }\n        \n        .client-js.vector-feature-toc-pinned-clientpref-0 body:not(.vector-sticky-header-visible).vector-below-page-title .vector-page-titlebar-toc,\n        .vector-feature-zebra-design-enabled.client-js.vector-feature-toc-pinned-clientpref-0 body:not(.vector-sticky-header-visible).vector-below-page-title .vector-page-titlebar-toc,\n        .vector-feature-zebra-design-disabled.client-js.vector-feature-toc-pinned-clientpref-0 body:not(.vector-sticky-header-visible).vector-below-page-title .vector-page-titlebar-toc{\n             left: unset;\n             right: 12px;\n        }\n        \n        .vector-feature-toc-pinned-clientpref-0 body:not(.vector-sticky-header-visible) .vector-page-titlebar .vector-toc-landmark,\n        .vector-feature-zebra-design-enabled.vector-feature-toc-pinned-clientpref-0 body:not(.vector-sticky-header-visible) .vector-page-titlebar .vector-toc-landmark,\n        .vector-feature-zebra-design-disabled.vector-feature-toc-pinned-clientpref-0 body:not(.vector-sticky-header-visible) .vector-page-titlebar .vector-toc-landmark{\n            order: 3;\n        }\n        \n        .vector-page-titlebar > .mw-portlet-lang:last-child {\n            margin-right: 0;\n        }\n        \n        .vector-dropdown .vector-dropdown-content,\n        .vector-feature-zebra-design-enabled .vector-dropdown .vector-dropdown-content,\n        .vector-feature-zebra-design-disabled .vector-dropdown .vector-dropdown-content{\n            left: unset;\n            right: 0;\n        }\n        \n        .mw-page-container,\n        .vector-feature-zebra-design-enabled .mw-page-container,\n        .vector-feature-zebra-design-disabled .mw-page-container{\n            padding-left: 2.75em;\n            padding-right: 2.75em;\n        }\n        \n        .mw-page-container-inner,\n        .vector-feature-zebra-design-enabled .mw-page-container-inner,\n        .vector-feature-zebra-design-disabled .mw-page-container-inner{\n            column-gap: 0.5em;\n        }\n    }\n}",
+    "updateUrl": "https://userstyles.world/api/style/194.user.css",
+    "usercssData": {
+      "name": "wikipedia clear style",
+      "namespace": "wikipedia.org",
+      "version": "1.0.0",
+      "description": "wikipedia clear style",
+      "author": "kefiijrw"
+    },
+    "author": "kefiijrw",
+    "description": "wikipedia clear style",
+    "name": "wikipedia clear style",
+    "originalDigest": "88dc634fea5762fd4f64e0ee36559bfe3a75a818",
+    "_id": "99ff583c-fb6e-49fb-9fa2-64564f0d4f03",
+    "_rev": 1722837520937,
+    "id": 83,
+    "updateDate": 1722837520937,
+    "url": "https://userstyles.world/style/194",
+    "installationUrl": "https://userstyles.world/style/194",
+    "customName": "Unifie Wikipedia"
+  },
+  {
+    "enabled": true,
+    "installDate": 1722556046423,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "customName": "Unifie Njalla",
+    "sourceCode": "/* ==UserStyle==\n@name           ? - Aug 2024\n@namespace      github.com/\n@version        1.0.0\n@description    Unifie Njalla\n@author         Me\n==/UserStyle== */\n@-moz-document domain(\"njal.la\") {\n\n.section.full, div.section.full {\n  width: 100%;\n  max-width: 1930px;\n  height: 150px;\n   }\n}",
+    "usercssData": {
+      "name": "? - Aug 2024",
+      "namespace": "github.com/",
+      "version": "1.0.0",
+      "description": "Unifie Njalla",
+      "author": "Me"
+    },
+    "author": "Me",
+    "description": "Unifie Njalla",
+    "name": "? - Aug 2024",
+    "updateDate": 1722556068964,
+    "_id": "8781613c-e72a-4e87-b274-a926c02e1c50",
+    "_rev": 1722556068964,
+    "id": 88
+  },
+  {
+    "enabled": true,
+    "installDate": 1722837578258,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "customName": "Unifie Canva",
+    "sourceCode": "/* ==UserStyle==\n@name           Unifie Canva\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    Simple Youtube\n@author         Me\n==/UserStyle== */\n\n@-moz-document domain(\"canva.com\") {\n.b2YB7Q {\n  padding-top: 0px;\n }\n}",
+    "usercssData": {
+      "name": "Unifie Canva",
+      "namespace": "github.com/openstyles/stylus",
+      "version": "1.0.0",
+      "description": "Simple Youtube",
+      "author": "Me"
+    },
+    "author": "Me",
+    "description": "Simple Youtube",
+    "name": "Unifie Canva",
+    "updateDate": 1722837591628,
+    "_id": "9ada8bf5-d810-4e88-b1a0-47d97455cd3d",
+    "_rev": 1722837591629,
+    "id": 89
+  },
+  {
+    "enabled": true,
+    "installDate": 1723071848280,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "customName": "Unifie Duckduckgo",
+    "sourceCode": "/* ==UserStyle==\n@name           unifie duckduckgo\n@namespace      github.com/marlonivo/unifox/stylus/duckduckgo\n@version        1.0.0\n@description    Unified Duckduckgo\n@author         marlonivo.xyz\n==/UserStyle== */\n@-moz-document domain(\"duckduckgo.com\") {\n.header__search-wrap {\npadding-left: 15px;\n  }\n.h3EKGeHmRRkjbMqYfNUi.xWVFEW_kM7bYLASLNfsZ {\nmargin-left: 15px;\n }\n.DrcPyihFGyKMlg6lpwsa{\n  width: 2100px;\n }\n}\n\n",
+    "usercssData": {
+      "name": "unifie duckduckgo",
+      "namespace": "github.com/marlonivo/unifox/stylus/duckduckgo",
+      "version": "1.0.0",
+      "description": "Unified Duckduckgo",
+      "author": "marlonivo.xyz"
+    },
+    "author": "marlonivo.xyz",
+    "description": "Unified Duckduckgo",
+    "name": "unifie duckduckgo",
+    "updateDate": 1723086388178,
+    "_id": "86641f87-0085-4926-8f94-71a6df80927d",
+    "_rev": 1723086388178,
+    "id": 90
+  },
+  {
+    "enabled": true,
+    "installDate": 1723162086519,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           Clean Up Stack Exchange\n@namespace      github.com/openstyles/stylus\n@version        1.0.4\n@description    Hide hot network questions on Stack Exchange sites.\n@author         Me\n==/UserStyle== */\n@-moz-document domain(\"stackoverflow.com\"),\ndomain(\"serverfault.com\"),\ndomain(\"superuser.com\"),\ndomain(\"askubuntu.com\"),\ndomain(\"stackexchange.com\") {\n\t.s-post-summary__ignored,\n\t.s-sidebarwidget__yellow,\n\t.js-sidebar-zone,\n\t#hireme,\n\t#hot-network-questions,\n\t#newsletter-ad,\n\t.js-consent-banner {\n\t\tdisplay: none;\n\t}\n\t.content {\n\t\tmargin-left: 0px;\n\t\tmargin-right: 0px;\n\t\tpadding-right: 0px;\n\t\tpadding-left: 0px;\n\t    border: 0px solid;\n\n\t}\n\t#mainbar,\n\t.mainbar {\n\t\twidth: 100%;\n\t}\n\n\t.community-option,\n\t#sidebar,\n\t#left-sidebar,\n\t.bottom-notice {\n\t\tdisplay: none;\n\t}\n\n\t.top-bar._fixed {\n\t\tposition: absolute;\n\t}\n\thtml,\n\tbody {\n\t\t--ff-sans: sans-serif;\n\t\t--ff-serif: serif;\n\t\t--ff-mono: monospace;\n\t}\n\n\t.s-prose {\n\t\tfont-size: 17px;\n\t\tline-height: 1.75;\n\t}\n}",
+    "updateUrl": "https://userstyles.world/api/style/6424.user.css",
+    "usercssData": {
+      "name": "Clean Up Stack Exchange",
+      "namespace": "github.com/openstyles/stylus",
+      "version": "1.0.4",
+      "description": "Hide hot network questions on Stack Exchange sites.",
+      "author": "Me"
+    },
+    "author": "Me",
+    "description": "Hide hot network questions on Stack Exchange sites.",
+    "name": "Clean Up Stack Exchange",
+    "originalDigest": "a927fe24330c58a504ed3da6a8824be4ddd1934b",
+    "_id": "4efce4a4-f444-44a3-bd97-265486c2b48a",
+    "_rev": 1723162379449,
+    "id": 92,
+    "updateDate": 1723162379449,
+    "url": "https://userstyles.world/style/6424",
+    "installationUrl": "https://userstyles.world/style/6424",
+    "customName": "Unifie Stack Exchange"
+  }
+]

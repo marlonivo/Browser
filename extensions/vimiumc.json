@@ -1,0 +1,37 @@
+{
+	"name": "Vimium C",
+	"@time": "8/9/2024, 4:37:41 AM",
+	"time": 1723178261517,
+	"environment": {
+		"extension": "1.99.997",
+		"platform": "linux",
+		"firefox": 128
+	},
+	"exclusionRules": [],
+	"keyLayout": 128,
+	"keyMappings": [
+		"#!no-check",
+		"map <a-c-j> openUrl url=\"https://grapesjs.com\"",
+		"map <a-c-g> openUrl url=\"https://github.com\"",
+		"map <a-c-y> openUrl url=\"https://youtube.com\"",
+		"map <a-c-v> openUrl url=\"vimium://options\"",
+		"map <a-c-l> openUrl url=\"https://deepl.com\"",
+		"map <a-c-c> openUrl url=\"https://www.canva.com/projects\"",
+		"map <a-c-ü> openUrl url=\"https://chatgpt.com\"",
+		"map <a-c-d> openUrl url=\"https://wiki.marlonivo.xyz/doku.php?id=start\"",
+		"map <a-c-n> openUrl url=\"https://cloud.marlonivo.xyz\"",
+		"unmap t",
+		""
+	],
+	"keyupTime": 50,
+	"linkHintCharacters": "abcdefghjklmnop",
+	"nextPatterns": ">,›,→,»,≫,>>",
+	"notifyUpdate": false,
+	"previousPatterns": "<,‹,←,«,≪,<<",
+	"searchEngines": "du: https://duckduckgo.com/?q=%s DuckDuckGo",
+	"searchUrl": "https://duckduckgo.com/?q=$s DuckDuckGo",
+	"showAdvancedCommands": false,
+	"showInIncognito": true,
+	"vimSync": true,
+	"mapModifier": 2
+}
