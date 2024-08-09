@@ -11,7 +11,7 @@ Unifox.js is autobootstrap-script that configures a keyboard based, unified and 
 - [istilldontcareaboutcookies](https://www.stilldontcareaboutcookies.com/)
 - [vimimium-c](https://github.com/gdh1995/vimium-c) [preconfigured]
   
-2. Then configures the labelled Add-On's, with the included `addons.json` file.
+2. Then configures the labelled Add-On's, with the files from the `extensions` folder.
 
 3. Create a folder called `chrome` with a wide variety of simplicty making .css configuration files which include:
 - userChrome.css
