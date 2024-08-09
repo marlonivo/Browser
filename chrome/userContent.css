@@ -1,0 +1,52 @@
+/* -------------------  Firefox Background Image -------------------*/
+
+@-moz-document url("about:home"), url("about:blank") {
+    body {
+        background: #f9a url("/home/artix/.mozilla/firefox/3qd5xcv8.default-release/chrome/img/unifox.jpg") no-repeat center center fixed !important;
+        background-size: cover !important;
+    }
+        .logo {
+            display: inline-block;
+            height: 82px;
+            width: 82px;
+            background: url("/home/artix/.mozilla/firefox/3qd5xcv8.default-release/chrome/img/unifox.png") no-repeat center center;
+            background-size: auto;
+            background-size: 82px;
+        }
+
+        .wordmark {
+            background: url("/home/artix/.mozilla/firefox/3qd5xcv8.default-release/chrome/img/unifox-wordmark.svg") no-repeat center center;
+            background-size: contain;
+            -moz-context-properties: fill;
+            display: inline-block;
+            fill: light-dark(#20123A, #fbfbfe);
+            height: 82px;
+            margin-inline-start: 16px;
+            width: 134px;
+        }
+    }
+
+@-moz-document url("about:newtab"), url("about:privatebrowsing") {
+    .click-target-container *, .top-sites-list * {
+        text-shadow: 2px 2px 2px #222 !important;
+    }
+    body::before {
+        content: "";
+        z-index: -1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #f9a no-repeat url("/home/artix/.mozilla/firefox/3qd5xcv8.default-release/chrome/img/unifox.jpg") center;
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+/* -------------------  Firefox Global Styling  ------------------- */
+
+
+
+
+
+
