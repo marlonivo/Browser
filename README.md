@@ -48,11 +48,11 @@ install.sh
 **browser tab operations:**<br>
 `strg tab` - cycle through open Tabs<br>
 `strg t` - new tab<br>
-&nbsp;&nbsp;&nbsp;&nbsp;`strg y` - https://youtube.com<br>
-&nbsp;&nbsp;&nbsp;&nbsp;`strg h` - vimium://options<br>
-&nbsp;&nbsp;&nbsp;&nbsp;`strg e` - https://deepl.com<br>
-&nbsp;&nbsp;&nbsp;&nbsp;`strg g` - https://github.com<br>
-&nbsp;&nbsp;&nbsp;&nbsp;`strg k` - https://chatgpt.com<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`strg alt y` - https://youtube.com<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`strg alt h` - vimium://options<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`strg alt e` - https://deepl.com<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`strg alt g` - https://github.com<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`strg alt k` - https://chatgpt.com<br>
 &nbsp;&nbsp;&nbsp;&nbsp;`strg alt a` - about:addons<br>
 &nbsp;&nbsp;&nbsp;&nbsp;`strg alt c` - stylus toolbar<br>
 &nbsp;&nbsp;&nbsp;&nbsp;`strg alt u` - ublock origin toolbar<br>
