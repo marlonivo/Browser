@@ -53,10 +53,10 @@ install.sh
 &nbsp;&nbsp;&nbsp;&nbsp;`strg alt e` - https://deepl.com<br>
 &nbsp;&nbsp;&nbsp;&nbsp;`strg alt g` - https://github.com<br>
 &nbsp;&nbsp;&nbsp;&nbsp;`strg alt k` - https://chatgpt.com<br>
-&nbsp;&nbsp;&nbsp;&nbsp;`strg alt a` - about:addons<br>
 &nbsp;&nbsp;&nbsp;&nbsp;`strg alt c` - stylus toolbar<br>
 &nbsp;&nbsp;&nbsp;&nbsp;`strg alt u` - ublock origin toolbar<br>
 &nbsp;&nbsp;&nbsp;&nbsp;`strg alt p` - ublock element picker<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`strg shift a` - about:addons<br>
 `alt left` - go one step back in history<br>
 `alt right` - go one step forth in history<br>
 `strg shift s` - make a screenshot<br>
