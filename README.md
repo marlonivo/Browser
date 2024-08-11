@@ -56,12 +56,12 @@ install.sh
 &nbsp;&nbsp;&nbsp;&nbsp;`strg alt c` - stylus toolbar<br>
 &nbsp;&nbsp;&nbsp;&nbsp;`strg alt u` - ublock origin toolbar<br>
 &nbsp;&nbsp;&nbsp;&nbsp;`strg alt p` - ublock element picker<br>
-&nbsp;&nbsp;&nbsp;&nbsp;`strg shift a` - about:addons<br>
 `alt left` - go one step back in history<br>
 `alt right` - go one step forth in history<br>
 `strg shift s` - make a screenshot<br>
 `strg shift h` - search history, downloads, tags and bookmarks<br>
-`strg shift k` - developer console
+`strg shift k` - developer console<br>
+`strg shift a` - about:addons<br>
 
 **youtube:**<br>
 `t` - cinema mode<br>
