@@ -5,22 +5,24 @@ Unifox.js is autobootstrap-script that configures a keyboard based, unified and 
 
 ### 🟨 The Autobootstrap Script will do the following with your boring firefox:
 
-1. Inside your .mozilla directory, it will install the addon's:
+1. Creates a new user called `unifox`, which in itself creates a new directory in your `.mozilla` configuration folder
+
+2. Inside your new user directory, it will install the addon's:
 - [ublock-origin](https://ublockorigin.com/) [preconfigured]
 - [decentraleyes](https://decentraleyes.org/) 
 - [istilldontcareaboutcookies](https://www.stilldontcareaboutcookies.com/)
 - [vimimium-c](https://github.com/gdh1995/vimium-c) [preconfigured]
   
-2. Then configures the labelled Add-On's, with the files from the `extensions` folder.
+3. Then configures the labelled Add-On's, with the files from the `extensions` folder.
 
-3. Create a folder called `chrome` with a wide variety of simplicty making .css configuration files which include:
+4. Create a folder called `chrome` with a wide variety of simplicty making .css configuration files which include:
 - userChrome.css
 - userContent.css
 - userChrome.js
 
-4. Set a custom background which can be changed within the `.mozilla/firefox/xxxxx.default-release/chrome/img/` directory.
+5. Set a custom background which can be changed within the `.mozilla/firefox/xxxxx.default-release/chrome/img/` directory.
 
-5. At last copies my `prefs.js` to activate `toolkit.legacyUserProfileCustomizations.stylesheets` which is necessary for the Files within the folder `chrome` to take effect and also because some extensions store their settings in there.
+6. At last copies my `prefs.js` to activate `toolkit.legacyUserProfileCustomizations.stylesheets` which is necessary for the Files within the folder `chrome` to take effect and also because some extensions store their settings in there.
    
 ### 🟩 Installaion:
 ```
