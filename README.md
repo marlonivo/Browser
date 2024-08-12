@@ -5,9 +5,9 @@ Unifox.js is autobootstrap-script that configures a keyboard based, unified and 
 
 ### 🟨 The Autobootstrap Script will do the following with your boring firefox:
 
-1. Creates a new user called `unifox`, which in itself creates a new directory in your `.mozilla` configuration folder
+1. Creates a new profile called `unifox`, which in itself creates a new directory in your `.mozilla` configuration folder
 
-2. Inside your new user directory, it will install the addon's:
+2. Inside your new profile directory, it will install the addon's:
 - [ublock-origin](https://ublockorigin.com/) [preconfigured]
 - [decentraleyes](https://decentraleyes.org/) 
 - [istilldontcareaboutcookies](https://www.stilldontcareaboutcookies.com/)
