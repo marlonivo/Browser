@@ -26,7 +26,7 @@ Unifox.js is autobootstrap-script that configures a keyboard based, unified and 
    
 ### 🟩 Installaion:
 ```
-git clone https://raw.githubusercontent.com/marlonivo/unifox.js
+git clone https://github.com/marlonivo/unifox.js.git
 cd unifox.js
 install.sh
 ```
