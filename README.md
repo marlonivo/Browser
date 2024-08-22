@@ -14,14 +14,14 @@ Unifox.js is autobootstrap-script that configures a keyboard based, unified and 
   
 3. Then configures the labelled Add-On's, with the files from the `extensions` folder.
 
-4. Create a folder called `chrome` with a wide variety of simplicty making .css configuration files which include:
+4. Activate'S `toolkit.legacyUserProfileCustomizations.stylesheets` which is necessary for the Files within the folder `chrome` to take effectCreate a folder called `chrome` with a wide variety of simplicty making .css configuration files which include:
 - userChrome.css
 - userContent.css
 - userChrome.js
 
-5. Set a custom background which can be changed within the `.mozilla/firefox/xxxxx.default-release/chrome/img/` directory.
+5. Set a custom about:home which can be changed within the `.mozilla/firefox/xxxxx.default-release/chrome/img/` directory.
 
-6. At last copies my `prefs.js` to activate `toolkit.legacyUserProfileCustomizations.stylesheets` which is necessary for the Files within the folder `chrome` to take effect and also because some extensions store their settings in there.
+6. At last copies my `user.js`.
    
 ### 🟩 Installaion:
 ```
