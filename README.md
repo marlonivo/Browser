@@ -14,7 +14,7 @@ Unifox.js is autobootstrap-script that configures a keyboard based, unified and 
   
 3. Then configures the labelled Add-On's, with the files from the `extensions` folder.
 
-4. Activate'S `toolkit.legacyUserProfileCustomizations.stylesheets` which is necessary for the Files within the folder `chrome` to take effect. Then copie's the .css configuration files into which include:
+4. Activate's `toolkit.legacyUserProfileCustomizations.stylesheets` which is necessary for the Files within the folder `chrome` to take effect. Then copie's the .css configuration files into which include:
 - userChrome.css
 - userContent.css
 - userChrome.js
