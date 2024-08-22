@@ -21,7 +21,7 @@ Unifox.js is autobootstrap-script that configures a keyboard based, unified and 
 
 5. Set a custom about:home which can be changed within the `.mozilla/firefox/xxxxx.default-release/chrome/img/` directory.
 
-6. At last copies my `user.js`.
+6. At last copies my `user.js` and extension-settings.json.
    
 ### 🟩 Installaion:
 ```
