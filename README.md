@@ -9,7 +9,7 @@ Unifox.js is autobootstrap-script that configures a keyboard based, unified and 
 
 2. Inside your new profile directory, it will install the addon's:
 - [ublock-origin](https://ublockorigin.com/) [preconfigured]
-- [stlyus](
+- [stlyus](https://github.com/openstyles/stylus) [preconfigured]
 - [vimimium-c](https://github.com/gdh1995/vimium-c) [preconfigured]
   
 3. Then configures the labelled Add-On's, with the files from the `extensions` folder.
