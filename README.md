@@ -1,5 +1,5 @@
 ### 🟪 What is unifox.js ?
-Unifox.js is autobootstrap-script that configures a keyboard based, unified and distraction-free Firefox-UI plus Webpagedesign with the help of the `toolkit.legacyUserProfileCustomizations.stylesheets` function, as well as security and anti-tracking features with the help of [arkenfox](https://github.com/arkenfox/user.js/) and addon's like [decentraleyes](https://decentraleyes.org/).
+Unifox.js is autobootstrap-script that configures a keyboard based, unified and distraction-free Firefox-UI plus Webpagedesign with the help of the `toolkit.legacyUserProfileCustomizations.stylesheets` function, as well as security and anti-tracking features with the help of [arkenfox](https://github.com/arkenfox/user.js/).
 
 ![2024-08-09-045130_1920x1080_scrot](https://github.com/user-attachments/assets/8d693063-5032-4c87-9d56-3c2335ff158b)
 
