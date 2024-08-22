@@ -1,5 +1,5 @@
 ### 🟪 What is unifox.js ?
-Unifox.js is autobootstrap-script that configures a keyboard based, unified and distraction-free Browser-UI plus Webpagedesign with the help of the `toolkit.legacyUserProfileCustomizations.stylesheets` function, as well as security and anti-tracking features with the help of [arkenfox](https://github.com/arkenfox/user.js/) and addon's like [decentraleyes](https://decentraleyes.org/).
+Unifox.js is autobootstrap-script that configures a keyboard based, unified and distraction-free Firefox-UI plus Webpagedesign with the help of the `toolkit.legacyUserProfileCustomizations.stylesheets` function, as well as security and anti-tracking features with the help of [arkenfox](https://github.com/arkenfox/user.js/).
 
 ![2024-08-09-045130_1920x1080_scrot](https://github.com/user-attachments/assets/8d693063-5032-4c87-9d56-3c2335ff158b)
 
@@ -9,24 +9,23 @@ Unifox.js is autobootstrap-script that configures a keyboard based, unified and 
 
 2. Inside your new profile directory, it will install the addon's:
 - [ublock-origin](https://ublockorigin.com/) [preconfigured]
-- [decentraleyes](https://decentraleyes.org/) 
-- [istilldontcareaboutcookies](https://www.stilldontcareaboutcookies.com/)
+- [stlyus](https://github.com/openstyles/stylus) [preconfigured]
 - [vimimium-c](https://github.com/gdh1995/vimium-c) [preconfigured]
   
 3. Then configures the labelled Add-On's, with the files from the `extensions` folder.
 
-4. Create a folder called `chrome` with a wide variety of simplicty making .css configuration files which include:
+4. Activate'S `toolkit.legacyUserProfileCustomizations.stylesheets` which is necessary for the Files within the folder `chrome` to take effect. Then copie's the .css configuration files into which include:
 - userChrome.css
 - userContent.css
 - userChrome.js
 
-5. Set a custom background which can be changed within the `.mozilla/firefox/xxxxx.default-release/chrome/img/` directory.
+5. Set a custom about:home which can be changed within the `.mozilla/firefox/xxxxx.default-release/chrome/img/` directory.
 
-6. At last copies my `prefs.js` to activate `toolkit.legacyUserProfileCustomizations.stylesheets` which is necessary for the Files within the folder `chrome` to take effect and also because some extensions store their settings in there.
+6. At last copies my `user.js` and extension-settings.json.
    
 ### 🟩 Installaion:
 ```
-git clone https://github.com/marlonivo/unifox.js.git && cd unifox.js && make
+git clone https://github.com/marlonivo/unifox.git && cd unifox && chmod +x unifox.sh && ./unifox
 ```
 
 ### 🟦 Unified Keybindings for page-navigation and browser-tab-operations:
